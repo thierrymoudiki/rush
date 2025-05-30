@@ -13,6 +13,18 @@ and install packages directly from the shell.
 
 ## Installation
 
+TESTED:
+
+```bash
+cd /Users/t/Documents/Python_Packages
+git clone https://github.com/thierrymoudiki/rush.git
+export PATH="/Users/t/Documents/Python_Packages/rush/exec:$PATH"
+source ~/.zshrc # or source ~/.bashrc
+rush --help
+```
+
+NOT TESTED:
+
 You can install the development version of `rush` with:
 
 ``` r
